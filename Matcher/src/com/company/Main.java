@@ -27,7 +27,7 @@ public class Main {
         }
 
         else if (phone.matches("((^7)+([0-9]){9})$")) {
-            return "77" + phone.substring(1);
+            return "7" + phone;
         }
 
         return null;
